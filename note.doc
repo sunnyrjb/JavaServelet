@@ -1,0 +1,37 @@
+Setting up Apache Tomcat Server
+-----------------------------
+
+Remove if have any Context for Application to get the root application
+
+
+
+
+
+
+
+
+ 2nd Remove the context from Deployment tab
+
+
+
+
+Test the app :
+
+
+
+
+
+Project Type to choose
+---------------------
+file? new ? enterprise application 
+
+check 
+
+Application server : tomcat
+
+
+Web Application :  web.xml (if classic, setting confired in web.xml not with annotation for servlet config)
+
+it won’t be an maven app, but can later add support of maven web app
+
+
